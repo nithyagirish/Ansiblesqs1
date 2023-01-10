@@ -1,6 +1,6 @@
 ---
 - name: Create SQS queue Using Ansible
-  hots: localhost
+  hosts: localhost
   gather_facts: False
 
   tasks:
