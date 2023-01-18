@@ -17,7 +17,7 @@
         delivery_delay: dd
         receive_message_wait_time: rmwt
         sns_topic: topic1
-      Subscriptions:
-        - endpoint: endpoint1
-        - protocol: protocol1
+        Subscriptions:
+          - endpoint: endpoint1
+          - protocol: protocol1
 
