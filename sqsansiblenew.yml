@@ -6,6 +6,7 @@
     - name: Create SQS Queue
       sqs_queue:
         queue_name: name1
+        name: nithya_sqs
         region: region1
         queue_type: type1
         topic_name: exampletopic.fifo
