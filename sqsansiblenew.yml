@@ -20,7 +20,9 @@
     - name: Create SNS Topic   
       sns_topic:
         topic: topic1
-        Subscriptions:
-          - endpoint: endpoint1
-          - protocol: protocol1
+
+    - name: Create subscriptions for sending notifications    
+      Subscriptions:
+        - endpoint: endpoint1
+        - protocol: protocol1
 
