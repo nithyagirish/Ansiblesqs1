@@ -20,5 +20,6 @@
         region: us-west-2
         subscriptions:
           - endpoint: Nithyagirish93@gmail.com
-          - protocol: sqs
+          - protocol: SQS
+          
 
