@@ -17,7 +17,8 @@
 
     - name: Create SNS Topic   
       sns_topic:
-        topic: topic1  
+        topic: topic1
+        name: nithya_sns
         Subscriptions:
           - endpoint: endpoint1
           - protocol: protocol1
