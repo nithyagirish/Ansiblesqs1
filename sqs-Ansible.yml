@@ -7,6 +7,8 @@
       sqs_queue:
         name: sqsqueuenew
         region: region1
+        queue_type: type1
+        content_based_deduplication: true
         default_visibility_timeout: dvt
         message_retention_period: mrp
         maximum_message_size: mms
