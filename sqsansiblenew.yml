@@ -16,10 +16,11 @@
         maximum_message_size: mms
         delivery_delay: dd
         receive_message_wait_time: rmwt
-        
-    - name: Create SNS Topic    
-      sns_topic: topic1
-         Subscriptions:
+
+    - name: Create SNS Topic   
+      sns_topic:
+        name: topic1
+        Subscriptions:
           - endpoint: endpoint1
           - protocol: protocol1
 
