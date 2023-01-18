@@ -1,0 +1,25 @@
+---
+- name: Create SQS queue Using Ansible
+  hosts: localhost
+  gather_facts: true
+  tasks:
+    - name: Create SQS Queue
+      sqs_queue:
+        name: name1
+        region: region1
+        queue_type: type1
+        topic_name: exampletopic.fifo
+        fifo_topic: true
+        content_based_deduplication: true
+        default_visibility_timeout: dvt
+        message_retention_period: mrp
+        maximum_message_size: mms
+        delivery_delay: dd
+        receive_message_wait_time: rmwt
+      sns_topic:
+        name: topic1
+        state: present
+      Subscriptions:
+        - endpoint: endpoint1
+        - protocol: protocol1
+
