@@ -14,12 +14,11 @@
         maximum_message_size: mms
         delivery_delay: dd
         receive_message_wait_time: rmwt
-
     - name: Create SNS Topic   
       sns_topic:
-        name: snsnew
+        name: nithya_sns
         region: us-west-2
         subscriptions:
           - endpoint: Nithyagirish93@gmail.com
-          - protocol: Email
+          - protocol: sqs
 
