@@ -18,6 +18,7 @@
     - name: Create SNS Topic   
       sns_topic:
         name: nithya_sns
+        region: us-west-2
         subscriptions:
           - endpoint: endpoint1
           - protocol: protocol1
