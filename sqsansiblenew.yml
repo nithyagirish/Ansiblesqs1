@@ -21,7 +21,7 @@
         state: present
         region: us-west-2
         subscriptions:
-          - endpoint: "endpoint1"
-            protocol: "protocol1"
+          - endpoint: "Nithyagirish93@gmail.com"
+            protocol: "email"
           
 
