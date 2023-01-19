@@ -14,6 +14,7 @@
         maximum_message_size: mms
         delivery_delay: dd
         receive_message_wait_time: rmwt
+        
     - name: Create SNS Topic   
       sns_topic:
         name: nithya_sns
