@@ -5,7 +5,7 @@
   tasks:
     - name: Create SQS Queue
       sqs_queue:
-        name: nithya_sqs
+        name: nithya_sqs_ansible
         region: region1
         queue_type: type1
         content_based_deduplication: true
